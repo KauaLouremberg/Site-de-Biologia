@@ -1,5 +1,5 @@
 const ContenMain = () => {
-    return(
+    return( <></>
 
     );
 };
