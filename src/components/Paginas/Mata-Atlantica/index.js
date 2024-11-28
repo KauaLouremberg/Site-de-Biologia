@@ -41,13 +41,14 @@ const MataAtlantica = () => {
             marginLeft: "50px",
             height: "70vh",
             boxShadow: "initial",
+            overflow: "auto",
           }}
         >
           <div style={{ display: "flex", flexWrap: "wrap" }}>
             <Title level={2} style={{ marginTop: "-1px" }}>
               MATA ATLÂNTICA
             </Title>
-            <Avatar src={url} size={50} style={{ marginLeft: "780px" }} />
+            <Avatar src={url} size={40} style={{ marginLeft: "10px" }} />
             <Form.Item
               style={{ display: "flex", flexWrap: "wrap", width: "100%" }}
             >

@@ -35,13 +35,13 @@ const Dashboard = () => {
             marginLeft: "50px",
             height: "70vh",
             boxShadow: "initial",
+            overflow: "auto",
           }}
         >
           <div style={{ display: "flex", flexWrap: "wrap" }}>
             <Title level={2} style={{ marginTop: "-1px" }}>
               BEM-VINDO AOS BIOMAS DO BRASIL
             </Title>
-            <Avatar src={url} size={50} style={{ marginLeft: "500px" }} />
             <Divider />
             <Form.Item
               style={{ display: "flex", flexWrap: "wrap", width: "100%" }}

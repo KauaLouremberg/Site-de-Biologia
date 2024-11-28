@@ -42,13 +42,14 @@ const Pantanal = () => {
             height: "70vh",
             boxShadow: "initial",
             position: "relative",
+            overflow: "auto",
           }}
         >
           <div style={{ display: "flex", flexWrap: "wrap" }}>
             <Title level={2} style={{ marginTop: "-1px" }}>
               PANTANAL
             </Title>
-            <Avatar src={url} size={50} style={{ marginLeft: "850px" }} />
+            <Avatar src={url} size={40} style={{ marginLeft: "10px" }} />
             <Form.Item
               style={{ display: "flex", flexWrap: "wrap", width: "100%" }}
             >
