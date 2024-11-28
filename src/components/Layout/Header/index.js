@@ -1,6 +1,5 @@
 import React from "react";
 import { Form, Layout, Menu } from "antd";
-import Search from "antd/es/transfer/search";
 
 const Header = ({ onSearch }) => {
   const { Header } = Layout;
@@ -11,38 +10,33 @@ const Header = ({ onSearch }) => {
         style={{
           display: "flex",
           alignItems: "center",
-          flex: '1 1 30%',
+          flex: "1 1 30%",
           backgroundColor: "#FAA958",
         }}
       >
-        <div className="demo-logo"/>
+        <div className="demo-logo" />
         <Menu
-          theme='dark'
-          mode='horizontal'  
+          theme="dark"
+          mode="horizontal"
           style={{
             flex: 1,
             minWidth: 0,
-            backgroundColor: "#FAA958"
+            backgroundColor: "#FAA958",
           }}
         >
-             <h1 style={{ color: "#FFFFFF", marginTop: "15px" }}>
+          <h1
+            style={{ color: "#FFFFFF", marginTop: "15px", marginLeft: "50px" }}
+          >
             JOAQUIM NOGUEIRA - NEWS
           </h1>
 
           <Form.Item
-           style={{
-            alignContent: "center",
-            marginLeft: "600px",
-            marginTop: "35px"
-          }}
-          >
-            <Search
-                placeholder="Buscar"
-                enterButton="Search"
-                size="large"
-                onSearch={onSearch} 
-            />
-          </Form.Item>
+            style={{
+              alignContent: "center",
+              marginLeft: "600px",
+              marginTop: "35px",
+            }}
+          ></Form.Item>
         </Menu>
       </Header>
     </Layout>
